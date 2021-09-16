@@ -1,8 +1,17 @@
 <html>
     <head></head>
     <body>
-        <h1>POKEMON:<%= pokemones.name %></h1>
-        <li><%= pokemones.sprites.other.dream_world.front_default %></li>
-
+        <h1 align="center">POKEMON</h1>
+        <div align="center">
+            <FONT FACE="impact" SIZE=7 COLOR="red"><%= pokemones.name %></FONT>
+        </div> 
+        <div align="center">
+            <img src="<%= pokemones.sprites.other.dream_world.front_default %>" width="400px" height="400px"/>
+            <div align="justified">
+             <p>Fuente:
+             <span style="color:blue"><%= pokemones.sprites.other.dream_world.front_default %></span>
+            </p>
+            </div>
+        </div>
     </body>
 </html>
